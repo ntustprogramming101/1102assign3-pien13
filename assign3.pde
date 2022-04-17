@@ -331,7 +331,7 @@ void keyPressed(){
   if(key == CODED){
     switch(keyCode){
     case DOWN:
-      if(groundhogY < 160 + 24 * 80){
+      if(groundhogY < 400){
         downPressed = true;
         down = 15;
       }
